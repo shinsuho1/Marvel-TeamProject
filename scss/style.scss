@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@import './common/reset';
+
+@import './common/header';
+@import './common/main';
+@import './common/banner';
+@import './common/flickr';
+@import './sub/dragdrop';
+@import './sub/subFlickr';
+@import './common/footer';
+@import './common/marvelslider';
+@import './sub/movie';
+@import './sub/loaction';
+body {
+	background-color: #222;
+}
+
+.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+}
